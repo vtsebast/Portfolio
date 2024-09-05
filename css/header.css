@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arvo', serif;
+    ;
+}
+
+.header-principal {
+    align-items: center;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #020529, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00222b , #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 75px;
+}
+
+.header-principal h1 {
+    color: #e4ffff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.header-principal nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.header-principal a {
+    color: #e4ffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-principal a:hover {
+    color: #dd3e53;
+}
+
+.header-principal .Logo {
+    width: 250px;
+}
+
+.header-principal .Logo img {
+    width: 250px;
+}

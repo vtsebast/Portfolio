@@ -1,0 +1,210 @@
+/* Reset some default browser styles */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 40px;
+}
+
+body {
+    background-color: #00222b;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Header styles */
+.header-principal {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-principal h1 {
+    margin-bottom: 10px;
+}
+
+.header-principal nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.header-principal nav a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+/* About me section */
+#sct-info-personal {
+    background-image: url('https://i.ibb.co/bsXVNg7/background3.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    padding-left: 3%;
+}
+
+#sct-info-personal .integranteIzquierda {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+    padding: 20px 2%;
+    width: 70%;
+}
+
+.fotoIzquierdaR img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.info-banner {
+    max-width: 600px;
+}
+
+.info-banner .About {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.info-banner .acerca-personal {
+    font-size: 16px;
+}
+
+/* Projects section */
+#sct-info-proyectos {
+    display: flex;
+    justify-content: space-between; /* Asegura que haya separación entre los dos bloques */
+    gap: 20px; /* Espacio entre los proyectos */
+    padding: 20px; /* Añade un poco de espacio alrededor de la sección */
+}
+
+#sct-info-proyectos .proyectoIzquierda {
+    background-color: rgba(216, 57, 17, 0.7);
+}
+
+.proyectoIzquierda, .proyectoDerecha {
+    flex: 1; /* Ambos proyectos ocuparán un ancho igual */
+    padding: 10px; /* Añade un poco de espacio interno a los proyectos */
+    border: 1px solid #ddd; /* Opción de agregar un borde para diferenciarlos visualmente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.nombreYdescripcion, .nombreYdescripcionIzquierda {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.line {
+    margin: 5px 0;
+    color: #999;
+}
+
+.carousel-izquierda, .carousel-derecha {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.carousel-images img {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 2.5%;
+}
+
+.carousel-images2 img {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 2.5%;
+}
+
+button.prev, button.next {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    z-index: 10;
+}
+
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+
+/* Services section */
+#Skills {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.Skills-list a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.Skills-list a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+/* Contact section */
+#sct-contato {
+    padding: 40px;
+    text-align: center;
+    background-color: #00222b;
+}
+
+#sct-contato h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los enlaces de LinkedIn y GitHub */
+a.block {
+    display: inline-block;
+    margin: 0 10px; /* Espaciado entre los iconos */
+    color: white; /* Color de los iconos */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+}
+
+a.block svg {
+    width: 24px; /* Tamaño del icono */
+    height: 24px;
+    transition: transform 0.3s ease, color 0.3s ease; /* Efecto de transición */
+}
+
+a.block:hover svg {
+    transform: scale(1.1); /* Aumentar tamaño al pasar el mouse */
+    color: #B0BEC5; /* Cambiar color al pasar el mouse (gris claro) */
+}
+
+a.block:hover {
+    color: #B0BEC5; /* Cambiar color del enlace al pasar el mouse */
+}
+

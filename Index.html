@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 1. Archivo reset css -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- 2. Archivo que contiene la tipografia de la letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+
+
+    <!-- 3. Estilos personalizados -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header class="header-principal">
+        <div class="nombre">
+            <h1> Sebastian Taylor Madrigal </h1> 
+        </div>
+        <nav>
+            <a href="#body">About me</a>
+            <a href="#sct-info-proyectos">Proyects</a>
+            <a href="#Skills">Skills</a>
+            <a href="#sct-contato">Contact</a>
+
+        </nav>
+
+    </header>
+    <section id="sct-info-personal">
+        <div class="integranteIzquierda">
+            <div class="fotoIzquierdaR">
+                <img src="https://i.ibb.co/KG9JXxt/fotoS.jpg" alt="foto">
+            </div>
+            <div class="info-banner">
+                <p class="About"> About me: </p>
+                <p class=acerca-personal> I am a seasoned professional with 7 years of experience in analyzing technical and operational information, executing business and technology strategies, and driving process integration. My background includes supporting management and cross-functional teams, with a strong focus on continuous improvement and aligning initiatives with strategic business goals.</p>
+            </div>
+        </div>    
+    </section>
+
+    <section id="sct-info-proyectos">
+        <h2>Main Proyects</h2>
+        <div class="proyectoIzquierda">
+            
+            <div class="carousel-izquierda">
+                <div class="carousel-images">
+                    <img src="https://i.ibb.co/8NfzLNd/Screenshot-2024-09-04-012852.png" alt="Image 1">
+                    <img src= "https://i.ibb.co/R4L5Mdj/Screenshot-2024-09-04-013054.png" alt="Image 2">
+                    <img src="https://i.ibb.co/2PD3CnP/Screenshot-2024-09-04-013125.png" alt="Image 3">
+                    <img src="https://i.ibb.co/K0KyzLB/Screenshot-2024-09-04-013608.png" alt="Image 4">
+                    <img src="https://i.ibb.co/jMxVKJd/Screenshot-2024-09-04-013450.png" alt="Image 5">
+
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+            
+            <div class="nombreYdescripcion">
+                <p class="nombreDerecha">Ticket CR</p>
+                <p class="line">_________________________________________</p>
+                <p class="descripcionDerecha">This project is about a web application dedicated to the administration of massive events. In this you could create events, keep sales statistics and sell tickets to the public. Allows you to create a page administrator user, event creator and general public user.</p>
+                <p class="techs"> Technologys: C# , javascript, SQL server, html and css</p>
+                <a class="block hover:text-slate-200" href="https://github.com/vtsebast/TicketCR.git" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub"><span class="sr-only">GitHub</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+
+            </div>
+        </div>
+
+        </div>
+        <div class="proyectoDerecha">
+            <div class="nombreYdescripcionIzquierda">
+                <p class="nombreIzquierda">Moka Hotel Vet</p>
+                <p class="line">_________________________________________</p>
+                <p class="descripcionIzquierda">This is a website that helps a Hotel veterinarian better run the business, both for scheduling client appointments and for reservations at the pet hotel. It also allows customers to register and register their pets. The system maintains a file for each pet.</p>
+                <p class="techs"> Technologys: mongoDB, javascript, html and css</p>
+                <a class="block hover:text-slate-200" href="https://github.com/vtsebast/Hotel-and-veterinary.git" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub"><span class="sr-only">GitHub</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+            </div>
+            <div class="carousel-derecha">
+                <div class="carousel-images2">
+                    <img src="https://i.ibb.co/4247j3r/Screenshot-2024-09-03-235356.png" alt="Image 1">
+                    <img src="https://i.ibb.co/Yd9hGvv/Screenshot-2024-09-03-235428.png" alt="Image 2">
+                    <img src="https://i.ibb.co/sv1DB7q/Screenshot-2024-09-03-235506.png" alt="Image 3">
+                </div>
+                <button class="prev" onclick="prevSlide2()">&#10094;</button>
+                <button class="next" onclick="nextSlide2()">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="Skills">
+        <h2>Skills and lenguages</h2>
+
+        <div class="Skills-list">
+
+            <p>SQL</p>
+            <p>React</p>
+            <p>Python</p>
+            <p>Data Analysis</p>
+            <p>Web Development</p>
+            <p>Business Process Improvement</p>
+            <p>Problem-Solving and Critical Thinking</p>
+
+        </div>
+    </section>
+
+
+
+
+    <section id="sct-contato">
+
+        <h2>Contact!</h2>
+        <a class="block hover:text-slate-200" href="https://www.linkedin.com/in/sebastian-taylor-madrigal-1412b6139/" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn (opens in a new tab)" title="LinkedIn"><span class="sr-only">LinkedIn</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path></svg></a>
+        <a class="block hover:text-slate-200" href="https://github.com/vtsebast" target="_blank" rel="noreferrer noopener" aria-label="GitHub (opens in a new tab)" title="GitHub"><span class="sr-only">GitHub</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg></a>
+        <p>email: sntaylor81@gmail.com</p>
+        <div class="inf">
+           
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
