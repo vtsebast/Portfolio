@@ -59,7 +59,6 @@ body {
     font-size: 60px;
     margin-bottom: 20px;
     padding: 20px 2%;
-    width: 70%;
 }
 
 .fotoIzquierdaR img {
@@ -86,7 +85,7 @@ body {
 
 /* Projects section */
 #sct-info-proyectos {
-    display: flex;
+
     justify-content: space-between; /* Asegura que haya separación entre los dos bloques */
     gap: 20px; /* Espacio entre los proyectos */
     padding: 20px; /* Añade un poco de espacio alrededor de la sección */
@@ -208,3 +207,16 @@ a.block:hover {
     color: #B0BEC5; /* Cambiar color del enlace al pasar el mouse */
 }
 
+@media (max-width: 480px) {
+    .header-principal h1 {
+        font-size: 1.5rem;
+    }
+
+    .nombreYdescripcion, .nombreYdescripcionIzquierda {
+        text-align: center;
+    }
+
+    .Skills-list p {
+        font-size: 1rem;
+    }
+}

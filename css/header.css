@@ -47,3 +47,76 @@ body {
 .header-principal .Logo img {
     width: 250px;
 }
+/* Estilos para pantallas grandes (por defecto) */
+.header-principal {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 75px;
+}
+
+.header-principal h1 {
+    font-size: 25px;
+}
+
+.header-principal nav {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+/* Para pantallas medianas (tablets y pantallas de tamaño intermedio) */
+@media (max-width: 768px) {
+    .header-principal {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .header-principal h1 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .header-principal nav {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .header-principal a {
+        font-size: 18px;
+        padding: 5px;
+    }
+}
+
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+    .header-principal {
+        flex-direction: column;
+        padding: 3px;
+    }
+
+    .header-principal h1 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .header-principal nav {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .header-principal a {
+        font-size: 14px;
+        margin: 4px 0;
+    }
+
+    .header-principal .Logo img {
+        width: 100px;
+        margin-bottom: 5px;
+    }
+}
